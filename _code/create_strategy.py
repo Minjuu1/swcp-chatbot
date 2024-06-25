@@ -53,6 +53,5 @@ strategies = {
        {"strategy": refuse},
        {"strategy": disagreement},
        {"strategy": verbal_abuse},
-
    ]
 }

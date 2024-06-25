@@ -1,13 +1,11 @@
 import streamlit as st
 
-import os
-import base64
 from langchain.prompts import PromptTemplate
 
 from openai import OpenAI
 
 # 웹페이지 기본 정보 세팅 함수
-def header():
+def config():
     st.set_page_config(
     page_title="사회성 대화 연습 챗봇",
     page_icon='💬',

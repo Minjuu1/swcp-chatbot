@@ -70,3 +70,5 @@ def userPrompt(situation):
     )
 
     user_prompt = user_prompt_template.format(situation=situation)
+    
+    return user_prompt
