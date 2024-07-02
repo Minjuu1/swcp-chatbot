@@ -14,7 +14,7 @@ def make_shot_prompt():
     import create_shots
 
     # JSON 데이터 문자열로 결합(3개의 예시 대화)
-    shot_prompt = conversation_to_string(create_shots.three_shots)
+    shot_prompt = conversation_to_string(create_shots.two_shots)
 
     # 결과 반환
     return shot_prompt

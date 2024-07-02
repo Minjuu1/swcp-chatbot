@@ -85,48 +85,48 @@ conversation2 = [
     }
 ]
 
-conversation3 = [
-    {
-        "speaker": "user",
-        "text": "나도 이 책 읽고 싶은데.. 내가 읽어도 될까?"
-    },
-    {
-        "speaker": "bot",
-        "text": "음 나도 이거 진짜 읽고 싶어. 이 책 읽고 싶은 이유가 있어?"
-    },
-    {
-        "speaker": "user",
-        "text": "왜냐하면 내가 이 주인공 돼지 진짜 좋아하거든. 다음 이야기 알고 싶어서"
-    },
-    {
-        "speaker": "bot",
-        "text": "그렇구나 근데 나도 이 편을 진짜 읽고 싶었거든 어떡하지?"
-    },
-    {
-        "speaker": "user",
-        "text": "내가 진짜 빨리 읽을 수 있는데. 너만 괜찮으면 내가 먼저 읽어도 될까?"
-    },
-    {
-        "speaker": "bot",
-        "text": "너가 먼저 읽는다고? 그건 안될 것 같은데.. 내가 먼저 읽고 싶어."
-    },
-    {
-        "speaker": "user",
-        "text": "그럼 어쩔 수 없지. 너가 먼저 읽고 다음에 내가 빌릴게."
-    },
-    {
-        "speaker": "bot",
-        "text": "양보해줘서 고마워. 내가 빨리 읽고 줄게."
-    },
-    {
-        "speaker": "user",
-        "text": "알겠어. 대신 읽고 바로 나한테 줘야 해?"
-    },
-    {
-        "speaker": "bot",
-        "text": "그래. 너한테 바로 줄게! 약속해."
-    }
-]
+# conversation3 = [
+#     {
+#         "speaker": "user",
+#         "text": "나도 이 책 읽고 싶은데.. 내가 읽어도 될까?"
+#     },
+#     {
+#         "speaker": "bot",
+#         "text": "음 나도 이거 진짜 읽고 싶어. 이 책 읽고 싶은 이유가 있어?"
+#     },
+#     {
+#         "speaker": "user",
+#         "text": "왜냐하면 내가 이 주인공 돼지 진짜 좋아하거든. 다음 이야기 알고 싶어서"
+#     },
+#     {
+#         "speaker": "bot",
+#         "text": "그렇구나 근데 나도 이 편을 진짜 읽고 싶었거든 어떡하지?"
+#     },
+#     {
+#         "speaker": "user",
+#         "text": "내가 진짜 빨리 읽을 수 있는데. 너만 괜찮으면 내가 먼저 읽어도 될까?"
+#     },
+#     {
+#         "speaker": "bot",
+#         "text": "너가 먼저 읽는다고? 그건 안될 것 같은데.. 내가 먼저 읽고 싶어."
+#     },
+#     {
+#         "speaker": "user",
+#         "text": "그럼 어쩔 수 없지. 너가 먼저 읽고 다음에 내가 빌릴게."
+#     },
+#     {
+#         "speaker": "bot",
+#         "text": "양보해줘서 고마워. 내가 빨리 읽고 줄게."
+#     },
+#     {
+#         "speaker": "user",
+#         "text": "알겠어. 대신 읽고 바로 나한테 줘야 해?"
+#     },
+#     {
+#         "speaker": "bot",
+#         "text": "그래. 너한테 바로 줄게! 약속해."
+#     }
+# ]
 
 # 각 데이터 비교를 위해 예시 대화 1개를 담은 json 변수, 대화 3개를 담은 변수 생성
 # 1개의 대화
@@ -134,7 +134,7 @@ one_shot = conversation1
 
 
 # 세 개의 대화 결합
-three_shots = {
+two_shots = {
    "conversations": [
        {"conversation": conversation1},
        {"conversation": conversation2},
